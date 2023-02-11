@@ -8,6 +8,8 @@ import { LogoutComponent } from './components/logout/logout.component';
 import { RegisterComponent } from './components/register/register.component';
 import { NewTicketComponent } from './components/new-ticket/new-ticket.component';
 import { ViewTicketsComponent } from './components/view-tickets/view-tickets.component';
+import { ViewEmployeesComponent } from './components/view-employees/view-employees.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ViewTicketsComponent } from './components/view-tickets/view-tickets.com
     LogoutComponent,
     RegisterComponent,
     NewTicketComponent,
-    ViewTicketsComponent
+    ViewTicketsComponent,
+    ViewEmployeesComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
